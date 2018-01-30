@@ -5,5 +5,5 @@ if [ ! -x $JAR_DIR/XMLThinner.jar ]; then
   exit 1
 fi
 
-java -cp $JAR_DIR/XMLThinner.jar  com/basingwerk/xmlthinner/XMLThinner
+java -cp $JAR_DIR/XMLThinner.jar  com/basingwerk/xmlthinner/XMLThinner $@
 
