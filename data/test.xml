@@ -2,5 +2,7 @@
 <a name="xyz">Some XML
 <z name="someName" b="2" c="3">Some z text</z>
 </a>
-<b name="rotter">fgdfsgdf</b>
+<b name="rotter" someAttr="abc &gt; &lt; &quot; &apos; &amp; def">text</b>
 </root>
+
+

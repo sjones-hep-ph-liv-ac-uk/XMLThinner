@@ -34,6 +34,7 @@ public class XMLThinner {
             SAXParserFactory spf = SAXParserFactory.newInstance();
             SAXParser sp = spf.newSAXParser();
             XMLReader xreader = sp.getXMLReader();
+            
             xreader.setContentHandler(new MyContentHandler(xreader, incl, tags));
             xreader.parse(args[2]);
         } catch (Throwable t) {
